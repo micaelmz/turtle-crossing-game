@@ -17,39 +17,5 @@ When the turtle collides with a car, it's game over and everything stops.
 
 ![Alt Text](https://media.giphy.com/media/tM4elLkYNrMrtXQuB6/giphy.gif)
 
-
-## Initial Settings
-### Screen setup
-```python
-from turtle import Screen
-
-class ScreenSettings:
-
-    def __init__(self):
-        Screen().setup(width=600, height=600)
-        Screen().tracer(0)
-```
-### Car manager
-
-```python
-COLORS = ["red", "orange", "yellow", "green", "blue", "purple"]
-STARTING_MOVE_DISTANCE = 5
-MOVE_INCREMENT = 10
-
-
-class CarManager:
-    pass
-```
-
-## Break down ideas
-Sound effect, level, player, scoreboard
-
-Improve graphs
-
-### Run
-```bash
-python main.py
-```
-
 ## Reference
 [Day 23 - 100 Days of Code](https://www.udemy.com/course/100-days-of-code/learn/lecture/20343209#overview)
