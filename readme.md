@@ -13,7 +13,6 @@ Sound effects.
 As you level up, new type of cars shows up, as truck for example.
 ```
 
-<br>
 
 ## Turtle
 
