@@ -1,4 +1,21 @@
-# Turtle
+# The Game
+Why the turtle cross the road? You better play to figure out.<br>
+Turtle Crossing game, is a game based in an old concept, having several similar ones on several old console games.<br>
+The objective is simple, cross the turtle to the other side of the road, without any car running you over, as you advance in the game, the level ups and the cars get faster, good luck.
+
+<br>
+
+### Version 1.0
+```
+My ideas for the next versions: 
+A better look game, improving the graphs to make looks like real roads and real cars.
+Sound effects.
+As you level up, new type of cars shows up, as truck for example.
+```
+
+<br>
+
+## Turtle
 
 A turtle moves forwards when you press the "Up" key. It can only move forwards, not back, left or right.
 
