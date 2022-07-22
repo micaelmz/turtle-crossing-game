@@ -1,6 +1,6 @@
 from turtle import Turtle
 from player import Player
-FONT = ("Courier", 24, "normal")
+FONT = ("Courier", 24, "bold")
 
 
 class Scoreboard(Turtle):

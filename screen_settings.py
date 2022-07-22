@@ -1,5 +1,7 @@
 from turtle import Screen, Turtle
 
+BACKGROUND_IMAGE = 'road.gif'
+
 
 class ScreenSettings:
 
@@ -7,8 +9,11 @@ class ScreenSettings:
         Screen().setup(width=600, height=600)
         Screen().tracer(0)
         Screen().listen()
+        Screen().title('Turtle Crossing Game')
+        Screen().addshape(BACKGROUND_IMAGE)
         self.screen_props = Turtle(visible=False)
-        self.finish_line()
+        self.screen_background = Turtle()
+        self.screen_background.shape(BACKGROUND_IMAGE)
         self.wall_box()
 
     def wall_box(self):
@@ -20,14 +25,3 @@ class ScreenSettings:
         self.screen_props.goto(300, -300)
         self.screen_props.goto(-300, -300)
         self.screen_props.goto(-300, 300)
-
-    def finish_line(self):
-        self.screen_props.pensize(2)
-        self.screen_props.pencolor('red')
-        self.screen_props.penup()
-        self.screen_props.goto(x=-300, y=260)
-        for c in range(15):
-            self.screen_props.pendown()
-            self.screen_props.forward(20)
-            self.screen_props.penup()
-            self.screen_props.forward(20)

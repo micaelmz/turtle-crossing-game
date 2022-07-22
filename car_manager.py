@@ -1,12 +1,19 @@
-from turtle import Turtle
+from turtle import Turtle, Screen
 from random import sample, randrange
-COLORS = ["red", "orange", "yellow", "green", "blue", "purple"]
+from cars import *
+
+BLUE_CAR = "cars/blue_car.gif"
+PINK_CAR = "cars/pink_car.gif"
+RED_CAR = "cars/red_car.gif"
+YELLOW_CAR = "cars/yellow_car.gif"
+CAR_COLORS = [BLUE_CAR, YELLOW_CAR, RED_CAR, PINK_CAR]
 
 
 class CarManager:
 
     def __init__(self):
-        super().__init__()
+        for car in CAR_COLORS:
+            Screen().addshape(car)
         self.cars = []
         self.move_increment = 4
         for c in range(25):
@@ -14,9 +21,8 @@ class CarManager:
 
     def generate_car(self):
         car = Turtle()
-        car.color(sample(COLORS, k=1))
+        car.shape(sample(CAR_COLORS, k=1)[0])
         car.penup()
-        car.shape('square')
         car.shapesize(stretch_wid=0.8, stretch_len=1.75)
         car.setheading(180)
         car.goto(x=randrange(-300, 700, 20), y=randrange(-200, 250, 20))

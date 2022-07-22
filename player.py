@@ -2,14 +2,14 @@ from turtle import Turtle
 STARTING_POSITION = (0, -280)
 MOVE_DISTANCE = 10
 FINISH_LINE_Y = 280
-FONT = ("Courier", 24, "normal")
+FONT = ("Courier", 24, "bold")
 
 
 class Player(Turtle):
 
     def __init__(self):
         super().__init__()
-        self.color('black')
+        self.color('dark olive green')
         self.shape('turtle')
         self.penup()
         self.goto(STARTING_POSITION)
@@ -21,6 +21,7 @@ class Player(Turtle):
     def game_over(self):
         self.hideturtle()
         self.goto(0, 0)
+        self.color('black')
         self.write(f'GAME OVER', font=FONT, align='center')
 
     def level_up(self):
