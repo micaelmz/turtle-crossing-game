@@ -5,14 +5,19 @@ The objective is simple, cross the turtle to the other side of the road, without
 
 <br>
 
-### Version 1.0
+### Version 1.1
 ```
-My ideas for the next versions: 
-A better look game, improving the graphs to make looks like real roads and real cars.
-Sound effects.
-As you level up, new type of cars shows up, as truck for example.
+💡 NEW! - Graphs and Sounds Improvement.
+Now this game looks like a real game, now it has some images and ambient sounds
 ```
+<img src="https://i.imgur.com/x92LU6C.png"  width="500" />
 
+#### My ideas for the next versions: 
+- [x] A better look game, improving the graphs to make looks like real roads and real cars.
+- [x] Sound effects.
+- [ ] As you level up, new type of cars shows up, as truck for example.
+
+<br>
 
 ## Turtle
 
