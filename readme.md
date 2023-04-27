@@ -10,7 +10,10 @@ The objective is simple, cross the turtle to the other side of the road, without
 💡 NEW! - Graphs and Sounds Improvement.
 Now this game looks like a real game, now it has some images and ambient sounds
 ```
+
+<div align="center">
 <img src="https://i.imgur.com/x92LU6C.png"  width="500" />
+</div>
 
 #### My ideas for the next versions: 
 - [x] A better look game, improving the graphs to make looks like real roads and real cars.
@@ -27,8 +30,11 @@ A turtle moves forwards when you press the "Up" key. It can only move forwards, 
 
 Cars are randomly generated along the y-axis and will move from the right edge of the screen to the left edge.
 
+<div align="center">
 
 ![Alt Text](https://media.giphy.com/media/UTOLFmvXw7Efpq93KA/giphy.gif)
+
+</div>
 
 ## Next level & Game over
 
@@ -36,7 +42,11 @@ When the turtle hits the top edge of the screen, it moves back to the original p
 
 When the turtle collides with a car, it's game over and everything stops.
 
+<div align="center">
+
 ![Alt Text](https://media.giphy.com/media/tM4elLkYNrMrtXQuB6/giphy.gif)
+
+</div>
 
 ## Reference
 [Day 23 - 100 Days of Code](https://www.udemy.com/course/100-days-of-code/learn/lecture/20343209#overview)
